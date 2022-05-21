@@ -1524,6 +1524,7 @@ export declare namespace grapesjs {
      * Disable the block from being interacted
      */
     disable?: boolean;
+    attributes?: any;
     /**
      * Custom behavior on click, eg. `(block, editor) => editor.getWrapper().append(block.get('content'))`
      */
